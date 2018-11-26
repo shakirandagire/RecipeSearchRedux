@@ -7,7 +7,7 @@ export default function searchBarReducer(state = initialState, action) {
     case 'SEARCH_BAR':
     return{
       ...state,
-      searchResults: [action.payload]
+      searchResults: action.payload
     }
     default:
     return state

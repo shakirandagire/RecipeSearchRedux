@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import { SearchBar }from '../SearchBar';
+import { SearchResults } from '../SearchResults';
 
 
 export class Root extends Component {
@@ -8,6 +9,7 @@ export class Root extends Component {
         return(
             <div>
                 <SearchBar />
+                <SearchResults/>
             </div>
         )
     }
