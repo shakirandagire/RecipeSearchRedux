@@ -1,0 +1,19 @@
+table{
+    border: 1px solid black;
+    margin-left: 30%;
+    width: 50%;
+    margin-top: 5%;
+}
+.title{
+    size: 20%;
+    font-weight: bold;
+    margin: 40%
+}
+
+.ingredients{
+    margin-left: 10%;
+}
+
+tr{
+    border: solid;
+}
